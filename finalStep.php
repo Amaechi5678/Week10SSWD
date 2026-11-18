@@ -29,6 +29,8 @@ if($_SESSION['luggage'] == 1) {
   echo "OVER 10 kgs: " . $_SESSION['overTenKG'] ."<BR>" ;
   echo "UNDER 10 kgs: " . $_SESSION['subTenKG'] ;
 }
+else 
+  echo "No luggage";
 
 ?>
 </h4></div></div>
