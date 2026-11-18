@@ -14,9 +14,9 @@ else {
 }
 
 if($_SESSION['luggage'] == 1) {
- header("Location: processForm2.php");
+ header("Location: luggage.html");
 }
 else {
- header("Location: processForm3.php");
+ header("Location: finalStep.php ");
 
 }
